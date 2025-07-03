@@ -66,7 +66,7 @@ const PublishNFT = () => {
             const imageUploadResponse = await fetch('https://api.pinata.cloud/pinning/pinFileToIPFS', {
                 method: 'POST',
                 headers: {
-                    'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI3OWU1ODQ2My1mN2UxLTRmZDEtYmY1ZS00NDg5YmE0NDdlMTkiLCJlbWFpbCI6Imhlcm5hbmFyaWFzLnV0bkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiM2Q2M2Y0MTU5ZWJjNjgwYWFlMmYiLCJzY29wZWRLZXlTZWNyZXQiOiI4ODM0MmZmNDM4MGY1Yjk0NDQ4OWQyYWE4MjVmZDJiNDNmNjgwNjg1NDIzMTUzNjcyNGE5NTg3MTNmYzVjNzJkIiwiZXhwIjoxNzgzMDg0MTUzfQ._x7B58UM_gcdzhA-xpYSyO27JQxQXl_XX4l-ucWt_jw`
+                    'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI3OGQzMzZkYi00NzJjLTQ3MTktYmFjOS0zMTBhOGVkNTc4OWQiLCJlbWFpbCI6ImNvc2VybWFydGluQGhvdG1haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6ImJkYjM2MGY0ODE3ODU4NmE1NGUwIiwic2NvcGVkS2V5U2VjcmV0IjoiYTc1YjUxNmVlMDUxY2I4ZjU1MDM5MTkxOWFhNWNkM2Q4YjgxMzQxYzNkNDI0NmFjMDYwNjIwMjg1NzA1M2IxMyIsImV4cCI6MTc4MzA5OTY4M30.sggbxCJcZd-Jh39tDrjZSZ4S1vo6y1FRZwp_8kQP3jM`
                 },
                 body: formData
             });
@@ -99,7 +99,7 @@ const PublishNFT = () => {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI3OWU1ODQ2My1mN2UxLTRmZDEtYmY1ZS00NDg5YmE0NDdlMTkiLCJlbWFpbCI6Imhlcm5hbmFyaWFzLnV0bkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiM2Q2M2Y0MTU5ZWJjNjgwYWFlMmYiLCJzY29wZWRLZXlTZWNyZXQiOiI4ODM0MmZmNDM4MGY1Yjk0NDQ4OWQyYWE4MjVmZDJiNDNmNjgwNjg1NDIzMTUzNjcyNGE5NTg3MTNmYzVjNzJkIiwiZXhwIjoxNzgzMDg0MTUzfQ._x7B58UM_gcdzhA-xpYSyO27JQxQXl_XX4l-ucWt_jw`
+                    'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI3OGQzMzZkYi00NzJjLTQ3MTktYmFjOS0zMTBhOGVkNTc4OWQiLCJlbWFpbCI6ImNvc2VybWFydGluQGhvdG1haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6ImJkYjM2MGY0ODE3ODU4NmE1NGUwIiwic2NvcGVkS2V5U2VjcmV0IjoiYTc1YjUxNmVlMDUxY2I4ZjU1MDM5MTkxOWFhNWNkM2Q4YjgxMzQxYzNkNDI0NmFjMDYwNjIwMjg1NzA1M2IxMyIsImV4cCI6MTc4MzA5OTY4M30.sggbxCJcZd-Jh39tDrjZSZ4S1vo6y1FRZwp_8kQP3jM`
                 },
                 body: JSON.stringify(nftMetadata)
             });
@@ -172,14 +172,14 @@ const PublishNFT = () => {
             {!isConnected && <p style={{ color: 'red', textAlign: 'center' }}>Por favor, conecta tu wallet para publicar NFTs.</p>}
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                 <div>
-                    <label htmlFor="nftName" style={{ display: 'block', marginBottom: '5px' }}>Nombre del NFT:</label>
+                    <label htmlFor="nftName" style={{ display: 'block', marginBottom: '5px'}}>Nombre del NFT:</label>
                     <input
                         type="text"
                         id="nftName"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         disabled={(loading || !isConnected)} 
-                        style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
+                        style={{ width: '98%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
                     />
                 </div>
                 <div>
@@ -190,7 +190,7 @@ const PublishNFT = () => {
                         onChange={(e) => setDescription(e.target.value)}
                         disabled={(loading || !isConnected)} 
                         rows="4"
-                        style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
+                        style={{ width: '97%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
                     ></textarea>
                 </div>
                 <div>
@@ -201,7 +201,7 @@ const PublishNFT = () => {
                         accept="image/*"
                         onChange={handleImageChange}
                         disabled={(loading || !isConnected)} 
-                        style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
+                        style={{ width: '97%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
                     />
                 </div>
                 <div>
@@ -214,7 +214,7 @@ const PublishNFT = () => {
                         disabled={(loading || !isConnected)} 
                         step="0.01"
                         min="0"
-                        style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
+                        style={{ width: '97%', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
                     />
                 </div>
                 <button type="submit" disabled={(loading || !isConnected)} style={{ padding: '10px 20px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer', fontSize: '16px' }}> 
